@@ -38,6 +38,15 @@ MacOS:
 
 Run `ehxc` to see a list of commands and options.
 
+The build command requires a config file. To use the build command, create a file in the same directory as your ehx file and name it `ehxconf` without the extension.
+
+Then, put the following in the file:
+
+```
+[input file]
+[output file]
+```
+
 ## License
 
 GNU General Public License v3.0
