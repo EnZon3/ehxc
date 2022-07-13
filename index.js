@@ -5,11 +5,24 @@ const program = new Command();
 const chalk = require('chalk');
 const Compiler = require('./compiler/Compiler.js')
 const fs = require('fs');
+const license = require('./extra/license.js');
 
 program
-    .name('EHxC - Extended Hex Compiler')
-    .description('Write hex in a plain text file and compile it straight to machine code!')
-    .version('1.0.0');
+    .name('EHxC')
+    .description('EHxC (Extended Hex Compiler): Write hex in a plain text file and compile it straight to machine code! \n\n' + license.notice)
+    .version('1.3.1');
+
+program.command('warranty')
+    .description('Shows the warranty information')
+    .action(() => {
+        console.log(license.warranty);
+    });
+
+program.command('cond')
+    .description('Shows the license conditions')
+    .action((str, options) => {
+        console.log(license.conditions);
+    });
 
 program.command('c')
     .description('Compiles a .ehx file to machine code')
