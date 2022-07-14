@@ -18,7 +18,7 @@ Windows:
 
 * Download the installer from [the releases](https://github.com/EnZon3/EHxC/releases) page
 * Run the installer
-* Put the executable in your PATH
+* Put the executable in your PATH (EXE Location: C:\Program Files (x86)\Extended Hex Compiler)
 * Enjoy
 * If it doesn't work when you run the program, try running it with administrator privileges
 
