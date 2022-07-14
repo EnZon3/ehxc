@@ -1,6 +1,6 @@
 # Extended Hex Compiler
 
-![version](https://img.shields.io/badge/version-1.3.1-brightgreen) ![downloads](https://img.shields.io/github/downloads/EnZon3/ehxc/total) ![lines](https://img.shields.io/tokei/lines/github/EnZon3/ehxc) ![platforms](https://img.shields.io/badge/platform-macos%20%7C%20linux%20%7C%20win64-lightgrey)
+![version](https://img.shields.io/badge/version-1.3.1-brightgreen)  ![lines](https://img.shields.io/tokei/lines/github/EnZon3/ehxc) ![platforms](https://img.shields.io/badge/platform-macos%20%7C%20linux%20%7C%20win64-lightgrey)
 
 Also known as EHxC, the title says it all. The Extended Hex Compiler is a hexadecimal compiler that allows you to write hexadecimal in a plain text file and compiles it straight to machine code.
 
