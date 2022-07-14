@@ -49,7 +49,6 @@ Then, put the following in the file:
 
 ## License
 
-GNU General Public License v3.0
+![license](https://img.shields.io/github/license/EnZon3/ehxc)
 
-[]: # License: GPLv3
-[]: # License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
+License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
