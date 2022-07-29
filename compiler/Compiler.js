@@ -100,6 +100,7 @@ function quickCompile(fileLoc, out, config) {
     //split every n bytes
     if(config === 1) {
         //don't split and return 0
+        console.log(chalk.red('»» Chunk size is 1, Quick Compile is useless with this chunk size and the program will now exit'));
         return 0;
     }
 
