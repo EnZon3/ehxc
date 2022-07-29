@@ -2,7 +2,7 @@ build
 node_modules
 .DS_Store
 helloworld.exe
-test.ehx
+test*.ehx
 ehxconf
 logo.ico
 installer_data
