@@ -45,7 +45,7 @@ Then, put the following in the file:
 ```
 [input file]
 [output file]
-[quick compile settings (DO NOT PUT THIS IN YOUR CONFIG FILE IF YOU DO NOT WANT TO USE QUICK COMPILE) (Format: '-q --[chunk size]')]
+[quick compile settings (DO NOT PUT THIS IN YOUR CONFIG FILE IF YOU DO NOT WANT TO USE QUICK COMPILE) (Format: '-q --[chunk size (in bytes)]')]
 ```
 
 ## License
